@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tristan Personal Website</title>
+<!------------------------ STYLE -------------------------->
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/section.css">
+    <link rel="stylesheet" href="style/home.css">
+<!------------------------ SCRIPT ------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+</head>
+<style>
+
+#home {
+    position: relative;
+    z-index: 3;
+}
+
+.none-parallax {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 1) 100%);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('img/home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+#about {
+    position: relative;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 1) 100%), url('img/about.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+#download {
+    position: relative;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 1) 100%), url('img/download.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+#collection {
+    position: relative;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 1) 100%), url('img/collection.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#games {
+    position: relative;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 1) 100%), url('img/games.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#drawing {
+    position: relative;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 1) 100%), url('img/drawing.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#contact {
+    position: relative;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 1) 100%), url('img/contact.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+</style>
+<body>
+    <header>
+        <a href="#" class="logo">TPW</a>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#download">Download</a>
+            <a href="#collection">Collection</a>
+            <a href="#games">Games</a>
+            <a href="#drawing">Drawing</a>
+            <a href="#contact">Contact</a>
+            <a href="#">More</a>
+        </nav>
+    </header>
+<!------------------------ HOME ------------------------->
+    <section id="home">
+        <div class="none-parallax">
+            <div class="titol"><p>TRISTAN</p></div>
+            <div class="scr-btn">
+                <a href="#about">
+                <ion-icon class="arscr" name="caret-down-outline"></ion-icon>
+            </a>
+            <a href="#download">
+                <img class="img-2" src="img/drive.png" alt="">
+            </a>
+            <a href="#">
+                <img class="img-3" src="img/missing.png" alt="">
+            </a>
+            <a href="#">
+                <img class="img-4" src="img/missing.png" alt="">
+            </a>
+            <a href="#">
+                <img class="img-5" src="img/missing.png" alt="">
+            </a>
+            <a href="#">
+                <img class="img-6" src="img/missing.png" alt="">
+            </a>
+            <a href="#">
+                <img class="img-7" src="img/missing.png" alt="">
+            </a>
+            </div>
+            <ion-icon class="logua" name="caret-down-outline"></ion-icon>
+            <div class="logue">
+            <img id="logue" src="img/logue.png" alt="">
+        </div>
+            <div class="conta">
+                <h1>TRISTAN PERSONAL WEBSITE ( TPW )</h1>
+                <p>MISSING PARAGRAPH</p>
+            </div></div>
+            <div class="parallax-bg"></div>
+    </section>
+    <!------------------------ ABOUT ------------------------->
+    <section id="about"></section>
+    <section id="download"></section>
+    <section id="collection"></section>
+    <section id="games"></section>
+    <section id="drawing"></section>
+    <section id="contact"></section>
+
+<!------------------------ SCRIPT ------------------------->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script/active.js"></script>
+<script src="script/homepara.js"></script>
+<script src="script/parcon.js"></script>
+<script src="script/logue.js"></script>
+
+</body>
+</html>
