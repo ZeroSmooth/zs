@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Outfit&family=Slabo+27px&family=Tektur&display=swap');
+html {
+	scroll-behavior: smooth;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: 'Alegreya SC', serif;
+}
+body {
+	overflow-x: hidden;
+}
+header {
+	position: fixed;
+	align-items: center;
+	top: 0;
+	left:0;
+	width: 100%;
+	padding: 5px 123px;
+	display: flex;
+	justify-content: space-between;
+	z-index: 100;
+	backdrop-filter: blur(5px);
+	border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.8);
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), transparent); /* transparrency of mirror */
+    transition: .5s;
+}
+header:hover::before {
+	left: 100%;
+	
+}
+.logo {
+	position: static;
+	font-size: 50px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+	user-select: none;
+	transition: 0.5s;
+}
+.logo:hover {
+	color: #000;
+    text-shadow:
+	    0 0 5px #fff,
+		0 0 25px #fff,
+		0 0 50px #fff,
+		0 0 100px #fff,
+		0 0 150px #fff,
+		0 0 200px #fff,
+		0 0 550px #fff;
+
+}
+nav a {
+    position: relative;
+	top: 0;            /*Navigation Buttons*/
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+	transition: 0.2s;
+}
+nav a::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom:-2px; /*UNDERLINE ANIMATION*/
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	border-radius: 20px;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: transform .3s;
+}
+
+nav a:hover::after {
+	transform-origin: left;
+    transform: scaleX(1);
+}
+nav a.active {
+	font-size: 25px;
+	border-radius: 15px;
+	color: rgb(126, 218, 255);
+	text-shadow:
+	    0 0 5px #fff,
+		0 0 50px #fff,
+		0 0 100px #fff,
+		0 0 200px #fff;
+}
+nav a.active::after {
+	background: rgb(126, 218, 255);
+	transform: scale(1);
+	transform-origin: left;
+}

@@ -1,0 +1,381 @@
+.conta {
+    position: relative;
+    top: 500px;
+    left: 100px;
+    right: 100px;
+    color: #fff;
+    cursor: default;
+    width: 1000px;
+    height: 350px;
+    border: 2px solid white;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+    transition: 0.5s;
+    box-shadow: 
+        0 0 10px #000,
+        0 0 20px #fff;
+    animation: conta1 5s ease-in-out 1.0s infinite;
+}
+.conta:hover {
+    box-shadow: 
+        0 0 10px #fff,
+        0 0 50px #fff,
+        inset 0 0 10px #fff,
+        inset 0 0 50px #fff,
+        0 0 100px #fff;
+    scale: 1.05;
+}
+.conta h1 {
+    font-size: 40px;
+}
+.conta p {
+    text-align: justify;
+}
+.titol p {
+    position: absolute;
+    font-family: 'Tektur', sans-serif;
+    margin-top: 120px;
+    margin-left: 100px;
+    cursor: default;
+    background-color: transparent;
+    color: transparent;
+    -webkit-text-stroke: 3px #fff;
+    font-size: 245px;
+    transition: 1s;
+}.titol p:hover {
+    -webkit-text-stroke: 3px #000;
+    text-shadow: 0 0 5px #fff,
+                0 0 25px #000,
+                0 0 50px #fff,
+                0 0 200px #fff;
+}
+.logue img {
+    position: absolute;
+    opacity: 0.5;
+    height: 150px;
+    right: -400px;
+    top: 120px;
+    cursor: pointer;
+    z-index: 11;
+}
+.logua {
+    opacity: 1;
+    position: absolute;
+    top: 105px;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 150px;
+    padding: 10px;
+    right: -70px;
+    rotate: 90deg;
+    cursor: pointer;
+    z-index: 11;
+}
+.scr-btn .arscr {
+    position: absolute;
+    top: 600px;
+    color: #fff;
+    font-size: 150px;
+    padding: 10px;
+    right: 500px;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: 0.5s;
+    filter: blur(4px);
+    box-shadow: 
+        0 0 10px #000,
+        0 0 20px #000,
+        0 0 100px #fff;
+    animation: slide 5s ease-in-out 1s infinite;
+}
+.img-2 {
+    position: absolute;
+    height: 90px;
+    top: 480px;
+    right: 700px;
+    padding: 2px 2px 2px 2px;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: 0.5s;
+    filter: blur(4px);
+    box-shadow: 
+        0 0 10px #000,
+        0 0 20px #000,
+        0 0 100px #fff;
+    animation: slide-2 5s ease-in-out 1.2s infinite;
+}
+.img-3 {
+    position: absolute;
+    height: 130px;
+    top: 580px;
+    right: 1000px;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: 0.5s;
+    filter: blur(4px);
+    box-shadow: 
+        0 0 10px #000,
+        0 0 20px #000,
+        0 0 100px #fff;
+    animation: slide-3 5s ease-in-out 1.4s infinite;
+}
+.img-4 {
+    position: absolute;
+    height: 90px;
+    top: 780px;
+    right: 800px;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: 0.5s;
+    filter: blur(4px);
+    box-shadow: 
+        0 0 10px #000,
+        0 0 20px #000,
+        0 0 100px #fff;
+    animation: slide-4 5s ease-in-out 1.6s infinite;
+}
+.img-5 {
+    position: absolute;
+    height: 100px;
+    top: 550px;
+    right: 1400px;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: 0.5s;
+    filter: blur(4px);
+    box-shadow: 
+        0 0 10px #000,
+        0 0 20px #000,
+        0 0 100px #fff;
+    animation: slide-5 5s ease-in-out 1.8s infinite;
+}
+.img-6 {
+    position: absolute;
+    height: 100px;
+    top: 500px;
+    right: 120px;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: 0.5s;
+    filter: blur(4px);
+    box-shadow: 
+        0 0 10px #000,
+        0 0 20px #000,
+        0 0 100px #fff;
+    animation: slide-6 5s ease-in-out 2s infinite;
+}
+.img-7 {
+    position: absolute;
+    height: 130px;
+    top: 750px;
+    right: 1650px;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: 0.5s;
+    filter: blur(4px);
+    box-shadow: 
+        0 0 10px #000,
+        0 0 20px #000,
+        0 0 100px #fff;
+    animation: slide-7 5s ease-in-out 2.2s infinite;
+}
+.img-8 {
+    position: absolute;
+    height: 140px;
+    top: 700px;
+    right: 200px;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: 0.5s;
+    filter: blur(4px);
+    box-shadow: 
+        0 0 10px #000,
+        0 0 20px #000,
+        0 0 100px #fff;
+    animation: slide-8 5s ease-in-out 2.4s infinite;
+}
+.bubble-1 {
+    position: absolute;
+    height: 150px;
+    top: 750px;
+    right: 1250px;
+    border-radius: 100px;
+    transition: 0.5s;
+    filter: blur(4px);
+    animation: bubble-1 5s ease-in-out 2.6s infinite;
+}
+.bubble-2 {
+    position: absolute;
+    height: 200px;
+    top: 450px;
+    right: 1650px;
+    border-radius: 100px;
+    transition: 0.5s;
+    filter: blur(4px);
+    animation: bubble-2 5s ease-in-out 2.8s infinite;
+}
+.bubble-3 {
+    position: absolute;
+    height: 150px;
+    top: 380px;
+    right: 350px;
+    border-radius: 100px;
+    transition: 0.5s;
+    filter: blur(4px);
+    animation: bubble-3 5s ease-in-out 3s infinite;
+}
+.bubble-4 {
+    position: absolute;
+    height: 100px;
+    top: 490px;
+    right: 1200px;
+    border-radius: 100px;
+    transition: 0.5s;
+    filter: blur(4px);
+    animation: bubble-4 5s ease-in-out 3.2s infinite;
+}
+.scr-btn .arscr:hover, .img-2:hover, .img-3:hover, .img-4:hover, .img-5:hover, .img-6:hover, .img-7:hover, .img-8:hover {
+    filter: blur(0);
+    box-shadow: 
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 100px #fff;
+    scale: 1.1;
+}
+.bubble-1:hover, .bubble-2:hover, .bubble-3:hover, .bubble-4:hover{
+    filter: blur(0);
+    scale: 1.1;
+}
+
+@keyframes slide{
+    0%{
+        transform: translate3d(0px, 0px, 0);
+    }
+    50%{
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0);
+    }
+}
+@keyframes slide-2{
+    0%{
+        transform: translate3d(0px, 0px, 0);
+    }
+    50%{
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0);
+    }
+}
+@keyframes slide-3{
+    0%{
+        transform: translate3d(0px, 0px, 0);
+    }
+    50%{
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0);
+    }
+}
+@keyframes slide-4{
+    0%{
+        transform: translate3d(0px, 0px, 0);
+    }
+    50%{
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0);
+    }
+}
+@keyframes slide-5{
+    0%{
+        transform: translate3d(0px, 0px, 0);
+    }
+    50%{
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0);
+    }
+}
+@keyframes slide-6{
+    0%{
+        transform: translate3d(0px, 0px, 0);
+    }
+    50%{
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0);
+    }
+}
+@keyframes slide-7{
+    0%{
+        transform: translate3d(0px, 0px, 0);
+    }
+    50%{
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0);
+    }
+}
+@keyframes slide-8{
+    0%{
+        transform: translate3d(0px, 0px, 0);
+    }
+    50%{
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0);
+    }
+}
+@keyframes bubble-1 {
+    0%{
+        transform: translate3d(0px, 0px, 0);
+    }
+    50%{
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0);
+    }
+}
+@keyframes bubble-2 {
+    0%{
+        transform: translate3d(0px, 0px, 0);
+    }
+    50%{
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0);
+    }
+}
+@keyframes bubble-3 {
+    0%{
+        transform: translate3d(0px, 0px, 0);
+    }
+    50%{
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0);
+    }
+}
+@keyframes bubble-4 {
+    0%{
+        transform: translate3d(0px, 0px, 0);
+    }
+    50%{
+        transform: translate3d(-10px, 10px, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0);
+    }
+}

@@ -1,0 +1,88 @@
+.innergame {
+    justify-content: center;
+    width: 1200px;
+    border: 5px solid black;
+    padding: 50px;
+    margin: 20px auto;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    cursor: default;
+    align-items: center;
+    animation: ingame 5s ease-in-out 1s infinite;
+    transition: .5s;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.innergame:hover {
+    scale: 1.03;
+    box-shadow: 
+        0 0 5px #000,
+        0 0 25px #000,
+        0 0 50px #000,
+        0 0 130px #fff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table td {
+    text-align: center;
+    padding: 10px;
+    border: 0px solid #ccc;
+}
+table img {
+    max-width: 200px;
+    height: auto;
+}
+.rounded-image {
+    color: white;
+    text-decoration: none;
+    border-radius: 10%;
+    border: 2px solid #fff;
+    width: auto;
+    height: auto;
+    transform: scale(1);
+    transition: 0.5s;
+}
+.rounded-image:hover {
+    transform: scale(1.05);
+    box-shadow: 
+        0 0 5px #fff,
+        0 0 15px #fff,
+        0 0 30px #fff;
+}
+.center {
+    text-align: center;
+}
+#tle {
+    color: white;
+    transition: 0.5s;
+}
+#tle:hover {
+    scale: 1.05;
+	text-shadow: 0 0 5px #000,
+                0 0 25px #000,
+                0 0 50px #fff,
+                0 0 200px #fff;
+}
+.back-button {
+    color: white;
+    text-decoration: none;
+}
+@keyframes ingame {
+    0%{
+        transform: translate3d(0, 0, 0);
+    }
+    50%{
+        transform: translate3d(-5px, 5px, 0px);
+    }
+    100%{
+        transform: translate3d(0, 0, 0);
+    }
+}

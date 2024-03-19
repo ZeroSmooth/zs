@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tristan Personal Website</title>
+<!------------------------ STYLE -------------------------->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/section.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/download.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/game.css">
+
+<!------------------------ SCRIPT ------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+</head>
+<style>
+
+#home {
+    position: relative;
+    z-index: 3;
+}
+
+.none-parallax {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 1) 100%);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('img/bg/home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+#about {
+    position: relative;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 1) 100%), url('img/bg/about.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+#download {
+    position: relative;
+    background: radial-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 1) 70%), url('img/bg/download.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+#collection {
+    position: relative;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 1) 100%), url('img/bg/collection.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#games {
+    position: relative;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 1) 100%), url('img/bg/games.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#drawing {
+    position: relative;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 1) 100%), url('img/bg/drawing.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#contact {
+    position: relative;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 1) 100%), url('img/bg/contact.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#gamebtn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: black;
+    width: 100%;
+    padding: 2px;
+    transition: 1s;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#gamebtn:hover {
+    transform: scale(1.05);
+    box-shadow: 
+        0 0 5px #fff,
+        0 0 15px #fff,
+        0 0 30px #000;
+}
+</style>
+<body>
+    <header>
+        <a href="#" class="logo">TPW</a>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#download">Download</a>
+            <a href="#games">Game</a>
+            <a href="#collection">Collection</a>
+            <a href="#drawing">Draw</a>
+            <a href="#contact">Contact</a>
+            <a href="#">More</a>
+        </nav>
+    </header>
+<!------------------------ HOME ------------------------->
+    <section id="home">
+        <div class="none-parallax">
+            <div class="titol"><p>TRISTAN</p></div>
+            <div class="scr-btn">
+                <a href="#about">
+                <ion-icon class="arscr" name="caret-down-outline"></ion-icon>
+            </a>
+            <a href="#download">
+                <img class="img-2" src="img/icon/drive.png" alt="">
+            </a>
+            <a href="#games">
+                <img class="img-3" src="img/icon/gmicon.png" alt="">
+            </a>
+            <a href="#">
+                <img class="img-4" src="img/icon/missing.png" alt="">
+            </a>
+            <a href="#">
+                <img class="img-5" src="img/icon/missing.png" alt="">
+            </a>
+            <a href="#">
+                <img class="img-6" src="img/icon/missing.png" alt="">
+            </a>
+            <a href="https://www.zerosmooth.000webhostapp.com" target="_blank">
+                <img class="img-7" src="img/icon/rnplogo.png" alt="">
+            </a>
+            <a href="#" target="_blank">
+                <img class="img-8" src="img/icon/missing.png" alt="">
+            </a>
+
+            <img class="bubble-1" src="design/bubble1.png" alt="">
+            <img class="bubble-2" src="design/bubble2.png" alt="">
+            <img class="bubble-3" src="design/bubble3.png" alt="">
+            <img class="bubble-4" src="design/bubble4.png" alt="">
+
+            </div>
+            <ion-icon class="logua" name="caret-down-outline"></ion-icon>
+            <div class="logue">
+            <img id="logue" src="img/icon/logue.png" alt="">
+        </div>
+            </div>
+            <div class="parallax-bg"></div>
+    </section>
+    <!------------------------ ABOUT ------------------------->
+    <section id="about">
+        
+        <div class="parallax-container2" id="parallax-container2">
+        <div class="abt1">
+            <h4 id="abttle">ABOUT</h4><hr><br>
+            <a href="#">
+                <img class="zslogoq" src="img/icon/zslogo.png" alt="">
+            </a>
+            <p id="abtp">Website Developer: Paolo Tristan Medenilla</p>
+            <p id="abtp2">Date of Creation: September 09, 2023</p>
+        </div></div>
+
+    </section>
+    <!------------------------ DOWNLOAD ------------------------->
+    <section id="download">
+
+        <div class="g">
+    
+            <img id="drvdl" src="img/icon/drive.png" width="300px" height="auto">
+            <div class="dl12">
+                <a class="dlbtn" href="https://drive.google.com/drive/folders/1D0c-cOzA1-SRlofvzJ72rSNlLlZCBPH6?usp=sharing" target="_blank">download
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
+              </div></div>
+
+              <img class="design-2" src="design/design2.png" alt="">
+              <img class="design-6" src="design/design6.png" alt="">
+              
+    </section>
+    <!------------------------ GAME ------------------------->
+    <section id="games">
+        <div class="center">
+            <div class="parallax-game" id="parallax-game">
+                <div class="innergame">
+                    <h1 style="text-align: center;" id="tle">CHOOSE YOUR GAME</h1>
+                    
+                    <table>
+                        <tr>
+                            <td>
+                                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease">
+                                    <a href="#forza" class="back-button">
+                                        <img src="img/icon/forza5.png" alt="img/codmicon" class="rounded-image">
+                                        <br>FORZA HORIZON 5<br>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease">
+                                    <a href="#mlbb" class="back-button">
+                                        <img src="img/icon/mlicon.png" alt="img/mlicon" class="rounded-image">
+                                        <br>MOBILE LEGENDS<br>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease">
+                                    <a href="#palworld" class="back-button">
+                                        <img src="img/icon/plwrldicon.png" alt="img/wricon" class="rounded-image">
+                                        <br>PALWORLD<br>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease">
+                                    <a href="#mcpe" class="back-button">
+                                        <img src="img/icon/mcpeicon.png" alt="img/codmicon" class="rounded-image">
+                                        <br>MINECRAFT<br>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease">
+                                    <a href="#gt" class="back-button">
+                                        <img src="img/icon/gticon.png" alt="img/wricon" class="rounded-image">
+                                        <br>GROWTOPIA<br>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease">
+                                    <a href="#spiderman" class="back-button">
+                                        <img src="img/icon/spdr.png" alt="terraria" class="rounded-image">
+                                        <br>SPIDER-MAN<br>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease">
+                                    <a href="#gtav" class="back-button">
+                                        <img src="img/icon/gtavicon.jpg" alt="img/mlicon" class="rounded-image">
+                                        <br>GTA V<br>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease">
+                                    <a href="#naruto" class="back-button">
+                                        <img src="img/icon/nrt.png" alt="img/wricon" class="rounded-image">
+                                        <br>NARUTO X BORUTO UNSC<br>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease">
+                                    <a href="#carstreet" class="back-button">
+                                        <img src="img/icon/carxstreeticon.png" alt="img/wricon" class="rounded-image">
+                                        <br>CARX STREET<br>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease">
+                                    <a href="#roblox" class="back-button">
+                                        <img src="img/icon/rblxicon.png" alt="img/wricon" class="rounded-image">
+                                        <br>ROBLOX<br>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5"><a href="#moregames" id="gamebtn">MORE</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="collection"></section>
+    <section id="drawing"></section>
+    <section id="contact"></section>
+
+<!------------------------ SCRIPT ------------------------->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script/active.js"></script>
+<script src="script/homepara.js"></script>
+<script src="script/parcon.js"></script>
+<script src="script/logue.js"></script>
+<script src="script/abtx.js"></script>
+<script src="script/games.js"></script>
+
+</body>
+</html>
